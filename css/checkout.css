@@ -1,0 +1,56 @@
+/* Basic styling for the entire form */
+form {
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Styling for input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.2s;
+}
+
+input[type="text"]:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0,123,255,0.2);
+}
+
+/* Styling for the submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus {
+    background-color: #0056b3;
+}
+
+/* For labels if you decide to use them */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #acacac;
+}
+
+/* Provide space between label and input */
+br {
+    margin-bottom: 15px;
+}

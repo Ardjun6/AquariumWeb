@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cart-info {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-info a {
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cart-info a:hover {
+    background-color: #2980b9;
+}
+
+.confirmation {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Grid Layout for Shop Items */
+.shop-items {
+    display: grid;
+    grid-template-columns: repeat(3, 21vw); /* 3 columns in the grid */
+    grid-gap: 10px; /* Spacing between grid items */
+	
+    justify-content: center; /* Horizontally center the grid */
+    align-items: center; /* Vertically center the grid */
+}
+.item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: box-shadow 0.3s ease;
+    max-width: 300px;  /* Maximum width of the card */
+    max-height: 400px; /* Maximum height of the card */
+    overflow: hidden;  /* Ensures content doesn't spill outside the card */
+}
+
+.item:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.item img {
+    width: 100%;
+    height: 150px;     /* Adjusted height for the image */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.item p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.item a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.item a:hover {
+    background-color: #2980b9;
+}

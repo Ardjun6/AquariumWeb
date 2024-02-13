@@ -1,0 +1,206 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    padding: 100px 0;
+    background: url('https://source.unsplash.com/1600x900/?aquarium') center center no-repeat;
+    background-size: cover;
+    height: 600px; /* Adjust the height as needed */
+    position: relative;
+}
+
+.nav{
+    background-color: #0056b3;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero .btn {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero .btn:active {
+    transform: translateY(0);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-box {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.photo-text {
+    background-color: #fff;
+}
+
+.photo-text h3 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.photo-text p {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+
+.text-photo{
+    background-color: #d1d1d1;
+}
+
+.join-us {
+    background-color: #d1d1d1;
+}
+
+.join-us h4 {
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+}
+
+.join-us p {
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.join-us .btn {
+    margin-top: 10px;
+}
+
+
+/* Footer Styles */
+.footer {
+    background: url('../images/Footer.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.footer h5 {
+    color: #fff;
+    border-bottom: 2px solid #007BFF;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.footer address {
+    color: #fff;
+    font-style: normal;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.footer ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #007BFF;
+}
+
+.footer p {
+    font-size: 1.1rem;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #007BFF;
+}
+
+.footer hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 30px 0;
+}
+
+
+/* responsive*/
+
+/* For medium devices and below */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 24px;
+    }
+    .navbar-brand img {
+        height: 60px; /* Reduce logo size for smaller screens */
+    }
+}
+
+/* For small devices and below */
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 20px;
+    }
+    .navbar-brand img {
+        height: 50px; /* Further reduce logo size for very small screens */
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* Example adjustments */
+
+    /* Adjusting container padding for mobile */
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* Adjust text size */
+    h2, h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    /* Adjust nav-bar */
+    .navbar-brand img {
+        height: 40px;  /* Adjust logo size */
+    }
+}
